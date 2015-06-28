@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo veuillez renseigner le chemin complet du fichier à copier, ex Desktop/Source/;
+read source;
+
+echo Veuillez renseigner le chemin complet de destination;
+read reponse;
+
+cp -R $source $reponse;
+
+echo "copie = OK";
